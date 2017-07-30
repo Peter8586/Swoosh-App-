@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03DF4111F29B6BB00F4BDCE /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF4101F29B6BB00F4BDCE /* BorderButton.swift */; };
 		C071BCE01F29AF740026539E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C071BCDF1F29AF740026539E /* AppDelegate.swift */; };
 		C071BCE21F29AF740026539E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C071BCE11F29AF740026539E /* ViewController.swift */; };
 		C071BCE51F29AF740026539E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C071BCE31F29AF740026539E /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C03DF4101F29B6BB00F4BDCE /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		C071BCDC1F29AF740026539E /* Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C071BCDF1F29AF740026539E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C071BCE11F29AF740026539E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C03DF40F1F29B68000F4BDCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C03DF4101F29B6BB00F4BDCE /* BorderButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C071BCD31F29AF730026539E = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		C071BCDE1F29AF740026539E /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				C03DF40F1F29B68000F4BDCE /* Views */,
 				C071BCDF1F29AF740026539E /* AppDelegate.swift */,
 				C071BCE11F29AF740026539E /* ViewController.swift */,
 				C071BCE31F29AF740026539E /* Main.storyboard */,
@@ -143,6 +154,7 @@
 				C071BCE21F29AF740026539E /* ViewController.swift in Sources */,
 				C071BCE81F29AF740026539E /* Swoosh.xcdatamodeld in Sources */,
 				C071BCE01F29AF740026539E /* AppDelegate.swift in Sources */,
+				C03DF4111F29B6BB00F4BDCE /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +318,7 @@
 				C071BCF31F29AF740026539E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
